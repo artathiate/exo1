@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Exercice 1</title>
+</head>
+
+<body>
+	<p id="bon"> bonjour</p>
+	
+	<script type="text/javascript">
+	document.getElementById('bon').addEventListener("click", 
+		function click() {
+			if (document.getElementById('bon')) {
+				document.getElementById('bon').classList.toggle('zoom');
+			}
+		});
+	</script>
+</body>
+
+</html>
